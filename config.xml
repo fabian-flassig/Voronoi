@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://xmlns.pytha.com/plugin_config/1.0">
+  <header>
+    <guid>9a02ac36-a72a-406a-a764-1887043553a5</guid>
+    <version>1.0</version>
+    <pytha-version>25.0</pytha-version>
+    <name>Voronoi</name>
+    <description>Voronoi creator for random points</description>
+    <licensing>MIT license. Credits to Jon Michael Aanes</licensing>
+  </header>
+  <extension type="function">
+    <entry-point>main</entry-point>
+    <caption>Voronoi</caption>
+    <description>The Voronoi plugin</description>
+  </extension>
+</plugin>

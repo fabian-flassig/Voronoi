@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="de-DE" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="main_file.lua">
+    <unit id="7021eb5845605ff6">
+      <segment>
+        <source>Voronoi</source>
+      </segment>
+    </unit>
+    <unit id="6d8bd9583bd094d1">
+      <segment>
+        <source>Voronoi Creator</source>
+      </segment>
+    </unit>
+    <unit id="6726b235d785d68e">
+      <segment>
+        <source>Name</source>
+      </segment>
+    </unit>
+    <unit id="483937ff79350b38">
+      <segment>
+        <source>Show points</source>
+      </segment>
+    </unit>
+    <unit id="7cc83fb8f14d8c4a">
+      <segment>
+        <source>Length</source>
+      </segment>
+    </unit>
+    <unit id="592a68fc7bfe32a5">
+      <segment>
+        <source>Width</source>
+      </segment>
+    </unit>
+    <unit id="5cbd4f250949d392">
+      <segment>
+        <source>Noise type</source>
+      </segment>
+    </unit>
+    <unit id="2295d0817b0cc4ad">
+      <segment>
+        <source>White</source>
+      </segment>
+    </unit>
+    <unit id="68c3cfcc7be5a7e0">
+      <segment>
+        <source>Blue</source>
+      </segment>
+    </unit>
+    <unit id="033b6a93de6d1c34">
+      <segment>
+        <source>Number of points</source>
+      </segment>
+    </unit>
+    <unit id="666fa04e21993736">
+      <segment>
+        <source>Parallel offset</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "033b6a93de6d1c34" string: "Number of points"-->
+    <unit id="49b1b696b0c5abee">
+      <segment>
+        <source>Min distance</source>
+      </segment>
+    </unit>
+    <unit id="0ea9ef28dccc010c">
+      <segment>
+        <source>Points</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "0ea9ef28dccc010c" string: "Points"-->
+    <unit id="0b09ac82e67cd4ad">
+      <segment>
+        <source>Area</source>
+      </segment>
+    </unit>
+    <unit id="0302c7a03c1da6f6">
+      <segment>
+        <source>Voronoi Areas</source>
+      </segment>
+    </unit>
+  </file>
+  <file original="points.lua"></file>
+  <file original="voronoi.lua"></file>
+</xliff>
