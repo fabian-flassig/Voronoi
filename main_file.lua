@@ -54,17 +54,7 @@ function init_dlg(dialog, data)
 	noise:set_control_selection(data.noise)
 	controls.label_points = dialog:create_label(3, pyloc "Number of points")
 	controls.points = dialog:create_text_spin(4, data.number_points)
-	
-	dialog:create_align({1,4})
 
-	local label_offset = dialog:create_label(1, pyloc "Parallel offset")
-	local offset = dialog:create_text_box(2, pyui.format_length(data.offset))
---	local label_radius = dialog:create_label(3, pyloc "Fillet radius")
---	local fillet_radius = dialog:create_text_box(4, pyui.format_length(data.fillet_radius))
-
-
-	
-	
 	dialog:create_align({1,4})
 
 	local ok = dialog:create_ok_button(3)
@@ -81,18 +71,14 @@ function init_dlg(dialog, data)
 			recreate_geometry(data)
 		end
     end)
+	
 	width:set_on_change_handler(function(text)
         data.width = pyui.parse_length(text) or data.width
 		if data.width > 0 then
 			recreate_geometry(data)
 		end
     end)
-	-- fillet_radius:set_on_change_handler(function(text)
-    --     data.fillet_radius = pyui.parse_length(text) or data.fillet_radius
-	-- 	if data.fillet_radius >= 0 then
-	-- 		recreate_geometry(data)
-	-- 	end
-    -- end)
+
 	show_points:set_on_click_handler(function(state)
 		data.show_points = state
 		recreate_no_new_points(data, point_list)
